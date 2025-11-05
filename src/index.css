@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-sm: 570px;
+    --breakpoint-md: 776px;
+    --breakpoint-lg: 990px;
+    --breakpoint-xl: 1280px;
+    --color-primary: #6E004C;
+}
+
+@utility container {
+    margin-inline: auto;
+}
